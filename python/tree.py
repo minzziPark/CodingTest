@@ -19,7 +19,7 @@ def levelOrder(root):
 
 def traversal(root):
 	if root is None:
-		return
+		return 0
 	traversal(root.left)
 	traversal(root.right)
 
